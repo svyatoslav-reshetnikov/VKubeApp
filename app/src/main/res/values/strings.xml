@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VKube</string>
+
+    <!-- Menu row items -->
+    <string name="announcements">АНОНСЫ</string>
+    <string name="reports">РЕПОРТАЖИ</string>
+    <string name="videos">ВИДЕО</string>
+    <string name="order">ЗАКАЗАТЬ</string>
+    <string name="about">О НАС</string>
+
+    <!-- About -->
+    <string name="about_text">Рекламно - репортажное агентство Vkube освещает яркие события города и с каждым днем набирает обороты и популярность. Команда специалистов занимается профессиональной фото и видео съемкой спортивных, культурных, семейных мероприятий, созданием промо-роликов. Vkube всегда находится в центре событий − освещает интересные места и заведения нашего города, производит репортажные съемки.
+    Мы готовы создать для вас самый лучший материал, который поможет вам в продвижении бизнеса, а так же в распространении в социальных сетях.</string>
+
+    <!-- Other -->
+    <string name="success">success</string>
+    <string name="failure">failure</string>
+
+</resources>

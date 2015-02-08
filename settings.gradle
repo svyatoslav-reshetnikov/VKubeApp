@@ -1,0 +1,4 @@
+include ':app', ':actionbarsherlock', ':NavigationLibrary', ':DataDroid'
+project(':actionbarsherlock').projectDir = new File('app/actionbarsherlock')
+project(':NavigationLibrary').projectDir = new File('app/NavigationLibrary')
+project(':DataDroid').projectDir = new File('app/DataDroid')
