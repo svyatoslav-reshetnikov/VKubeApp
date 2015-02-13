@@ -5,4 +5,13 @@
     <color name="shadow_center">#11000000</color>
     <color name="shadow_end">#00000000</color>
 
+    <color name="splash_back">#F1F1F1</color>
+
+    <color name="list_back">#80313131</color>
+    <color name="order_back">#80060C14</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="line_color">#A7A9AC</color>
+
 </resources>

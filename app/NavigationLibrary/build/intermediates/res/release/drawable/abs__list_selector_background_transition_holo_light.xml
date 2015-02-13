@@ -18,4 +18,4 @@
     <item android:drawable="@drawable/abs__list_pressed_holo_light"  />
     <item android:drawable="@drawable/abs__list_longpressed_holo"  />
 </transition>
-<!-- From: file:/Users/svyat/Desktop/VKube/app/actionbarsherlock/res/drawable/abs__list_selector_background_transition_holo_light.xml --><!-- From: file:/Users/svyat/Desktop/VKube/app/NavigationLibrary/build/intermediates/exploded-aar/VKube/actionbarsherlock/unspecified/res/drawable/abs__list_selector_background_transition_holo_light.xml -->
+<!-- From: file:/Users/svyat/Desktop/VKubeApp/app/actionbarsherlock/res/drawable/abs__list_selector_background_transition_holo_light.xml --><!-- From: file:/Users/svyat/Desktop/VKubeApp/app/NavigationLibrary/build/intermediates/exploded-aar/VKubeApp/actionbarsherlock/unspecified/res/drawable/abs__list_selector_background_transition_holo_light.xml -->

@@ -22,4 +22,4 @@
      android:layout_height="wrap_content"
      android:visibility="gone"
      style="?attr/actionModeStyle" />
-<!-- From: file:/Users/svyat/Desktop/VKube/app/actionbarsherlock/res/layout/abs__action_mode_bar.xml --><!-- From: file:/Users/svyat/Desktop/VKube/app/NavigationLibrary/build/intermediates/exploded-aar/VKube/actionbarsherlock/unspecified/res/layout/abs__action_mode_bar.xml -->
+<!-- From: file:/Users/svyat/Desktop/VKubeApp/app/actionbarsherlock/res/layout/abs__action_mode_bar.xml --><!-- From: file:/Users/svyat/Desktop/VKubeApp/app/NavigationLibrary/build/intermediates/exploded-aar/VKubeApp/actionbarsherlock/unspecified/res/layout/abs__action_mode_bar.xml -->

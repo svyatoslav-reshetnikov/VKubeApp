@@ -18,4 +18,14 @@
     <string name="success">success</string>
     <string name="failure">failure</string>
 
+    <!-- Order -->
+    <string name="photo">Фото</string>
+    <string name="video">Видео</string>
+    <string name="name">Имя</string>
+    <string name="enter_name">Введите имя</string>
+    <string name="phone">Телефон</string>
+    <string name="enter_phone">Введите телефон</string>
+    <string name="mail">E-mail</string>
+    <string name="enter_mail">Введите e-mail</string>
+
 </resources>

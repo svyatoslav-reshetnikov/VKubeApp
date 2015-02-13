@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/app/DataDroid/DataDroid.iml" filepath="$PROJECT_DIR$/app/DataDroid/DataDroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/NavigationLibrary/NavigationLibrary.iml" filepath="$PROJECT_DIR$/app/NavigationLibrary/NavigationLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/VKube.iml" filepath="$PROJECT_DIR$/VKube.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VKubeApp.iml" filepath="$PROJECT_DIR$/VKubeApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/actionbarsherlock/actionbarsherlock.iml" filepath="$PROJECT_DIR$/app/actionbarsherlock/actionbarsherlock.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>

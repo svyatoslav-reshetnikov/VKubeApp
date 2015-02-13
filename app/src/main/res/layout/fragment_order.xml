@@ -5,4 +5,106 @@
     android:layout_height="match_parent"
     android:background="@drawable/back_three">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:background="@color/order_back">
+
+        <TextView
+            android:id="@+id/orderText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/order"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"/>
+
+        <View android:id="@+id/separator"
+            android:background="@color/line_color"
+            android:layout_width = "match_parent"
+            android:layout_height="1dip"
+            android:layout_below="@+id/orderText"
+            android:layout_marginTop="8dp"/>
+
+        <RadioGroup
+            android:id="@+id/chooseMedia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/separator"
+            android:layout_marginTop="8dp"
+            android:layout_centerHorizontal="true">
+
+            <RadioButton
+                android:id="@+id/radioPhoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/photo"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:checked="true"/>
+
+            <RadioButton
+                android:id="@+id/radioVideo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/video"
+                android:textColor="@color/white"
+                android:textSize="20sp"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/enterName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:lines="1"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:ellipsize="end"
+            android:hint="@string/enter_name"
+            android:layout_below="@+id/chooseMedia"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp">
+        </EditText>
+
+        <EditText
+            android:id="@+id/enterPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:lines="1"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:ellipsize="end"
+            android:hint="@string/enter_phone"
+            android:layout_below="@+id/enterName"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp">
+        </EditText>
+
+        <EditText
+            android:id="@+id/enterMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:lines="1"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:ellipsize="end"
+            android:hint="@string/enter_mail"
+            android:layout_below="@+id/enterPhone"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp">
+        </EditText>
+
+    </RelativeLayout>
+
 </RelativeLayout>

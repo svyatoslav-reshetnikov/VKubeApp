@@ -6,6 +6,8 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import com.actionbarsherlock.app.SherlockFragment;
@@ -16,6 +18,7 @@ import java.util.ArrayList;
 
 import vkube.hit2b.com.vkube.R;
 import vkube.hit2b.com.vkube.activities.MainActivity;
+import vkube.hit2b.com.vkube.adapters.AnnouncementsAdapter;
 import vkube.hit2b.com.vkube.data.model.Announcements;
 import vkube.hit2b.com.vkube.network.URLs;
 import vkube.hit2b.com.vkube.network.VKubeRequestFactory;
@@ -29,6 +32,8 @@ public class AnnouncementsFragment extends SherlockFragment implements RequestLi
 
     public VKubeRequestManager mRequestManager;
     public ArrayList<Request> mRequestList;
+
+    ListView announcementsList;
 
     protected static final String SAVED_STATE_REQUEST_LIST = "savedStateRequestList";
 
@@ -55,6 +60,8 @@ public class AnnouncementsFragment extends SherlockFragment implements RequestLi
         View view = inflater.inflate(R.layout.fragment_announcements,
                 container, false);
 
+        announcementsList = (ListView) view.findViewById(R.id.announcementsList);
+
         return view;
     }
 
@@ -70,11 +77,17 @@ public class AnnouncementsFragment extends SherlockFragment implements RequestLi
     public void onRequestFinished(Request request, Bundle resultData) {
         if (mRequestList.contains(request))
             mRequestList.remove(request);
-
-        if(request.getRequestType() == 1){
+        if (request.getRequestType() == 1) {
             Announcements announcements = resultData
                     .getParcelable(VKubeRequestFactory.BUNDLE_EXTRA_ANNOUNCEMENTS);
-            Log.d("announcements", "announcements = " + announcements.result);
+            AnnouncementsAdapter adapter = new AnnouncementsAdapter(getActivity(), announcements);
+            announcementsList.setAdapter(adapter);
+            announcementsList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                @Override
+                public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+
+                }
+            });
         }
     }
 

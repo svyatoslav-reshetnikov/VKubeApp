@@ -3,15 +3,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SplashActivity"
-    android:background="@null">
+    android:background="@color/splash_back">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
         android:background="@null"
-        android:src="@drawable/splash"
-        android:scaleType="centerCrop"/>
-
+        android:src="@drawable/logo_splash"/>
+<!--
     <ProgressBar
         android:id="@+id/progressBarHorizontal"
         style="?android:attr/progressBarStyleHorizontal"
@@ -20,6 +21,6 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="100dp"
         android:max="100"
-        android:progressDrawable="@drawable/progress_bar"/>
+        android:progressDrawable="@drawable/progress_bar"/>-->
 
 </RelativeLayout>

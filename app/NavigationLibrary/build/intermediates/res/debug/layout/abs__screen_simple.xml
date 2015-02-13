@@ -36,4 +36,4 @@ enabled.
          android:foregroundGravity="fill_horizontal|top"
          android:foreground="?attr/windowContentOverlay" />
 </LinearLayout>
-<!-- From: file:/Users/svyat/Desktop/VKube/app/actionbarsherlock/res/layout/abs__screen_simple.xml --><!-- From: file:/Users/svyat/Desktop/VKube/app/NavigationLibrary/build/intermediates/exploded-aar/VKube/actionbarsherlock/unspecified/res/layout/abs__screen_simple.xml -->
+<!-- From: file:/Users/svyat/Desktop/VKubeApp/app/actionbarsherlock/res/layout/abs__screen_simple.xml --><!-- From: file:/Users/svyat/Desktop/VKubeApp/app/NavigationLibrary/build/intermediates/exploded-aar/VKubeApp/actionbarsherlock/unspecified/res/layout/abs__screen_simple.xml -->

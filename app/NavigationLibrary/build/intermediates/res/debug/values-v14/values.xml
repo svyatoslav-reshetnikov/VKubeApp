@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/svyat/Desktop/VKube/app/NavigationLibrary/build/intermediates/exploded-aar/VKube/actionbarsherlock/unspecified/res/values-v14/values.xml -->
+    <!-- From: file:/Users/svyat/Desktop/VKubeApp/app/NavigationLibrary/build/intermediates/exploded-aar/VKubeApp/actionbarsherlock/unspecified/res/values-v14/values.xml -->
     <eat-comment/>
     <style name="Sherlock.__Theme" parent="android:Theme.Holo">
     </style>

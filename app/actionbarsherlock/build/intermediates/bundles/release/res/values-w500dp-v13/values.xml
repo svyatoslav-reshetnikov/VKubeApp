@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/svyat/Desktop/VKube/app/actionbarsherlock/res/values-w500dp/abs__dimens.xml -->
+    <!-- From: file:/Users/svyat/Desktop/VKubeApp/app/actionbarsherlock/res/values-w500dp/abs__dimens.xml -->
     <eat-comment/>
     <integer name="abs__max_action_buttons">4</integer>
 </resources>
